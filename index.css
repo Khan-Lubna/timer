@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 50px;
+    margin-top: 18%;
+    margin-left: 2%;
+}
+.btn1{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    font-family: cambria;
+    font-size: 20px;
+    margin-top: 30%; 
+}
+.time{
+    display: flex;
+    flex-direction:row;
+    font-size: 50px;
+}

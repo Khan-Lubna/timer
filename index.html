@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js"></script>
+        <title>Timer</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body><div class="container">
+            <div class="time">
+            HH<input type="number" style="width: 2em;font-size: 50px;" id="hours" min="0" value="0">  :
+            MM<input type="number" style="width: 2em;font-size: 50px;" id="minutes" min="0" value="0"> :
+            SS<input type="number" style="width: 2em;font-size: 50px;" id="seconds" min="0">
+            </div>
+            <button class="btn1" onclick="countdown()">START</button>
+            <button class="btn1" onclick="pauseClock()">PAUSE</button>
+            <audio id="music" preload="auto" src="AlarmTone.mp3"></audio>
+        </div>
+    </body>
+</html>
+        
